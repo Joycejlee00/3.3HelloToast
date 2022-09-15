@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mShowCount = (TextView) findViewById(R.id.show_count);
     }
-
+//update
     public void showToast(View view) {
         Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
         //set a breakpoint at toast.show. It is when the toast appears when toast is clicked.
