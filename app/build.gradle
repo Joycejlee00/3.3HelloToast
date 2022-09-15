@@ -7,8 +7,8 @@ android {
 
     defaultConfig {
         applicationId "com.example.hellotoast"
-        minSdk 23
-        targetSdk 32
+        minSdk 22
+        targetSdk 22
         versionCode 1
         versionName "1.0"
 

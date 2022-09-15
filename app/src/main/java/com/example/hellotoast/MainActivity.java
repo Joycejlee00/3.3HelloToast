@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         //set a breakpoint at toast.show. It is when the toast appears when toast is clicked.
         //use API 23 or higher -> debug and step into.
         toast.show();
+        //^^ Now changed api to 22 which is less than 23
     }
 
     public void countUp(View view) {
